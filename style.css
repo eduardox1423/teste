@@ -4,8 +4,6 @@ body{
 
 }
 
-
-
 .capa{
     color:blueviolet
     font-size: 20px;
@@ -14,4 +12,19 @@ body{
 #heroi{
     display: flex;
     padding-left: 200px;
+}
+.videos{
+   display:flex;
+   overflow:auto;
+   gap:10px
+}
+.videos img{
+    opacity:0.5;
+    heght: 200px;
+}
+
+.videos img:hover{
+    opacity:1.0;
+border:3px solid #c6a974;
+
 }
